@@ -7,7 +7,6 @@ __pycache__/
 *.pyc
 .env
 venv/
-*.joblib
 
 # Node
 node_modules/
