@@ -180,8 +180,9 @@ export default function PredictorModal({ open, onClose }) {
                 position: "fixed", inset: 0, zIndex: 1000,
                 background: "rgba(5,8,18,0.92)",
                 backdropFilter: "blur(20px)",
-                display: "flex", alignItems: "center", justifyContent: "center",
-                padding: "24px",
+                display: "flex", alignItems: "flex-start", justifyContent: "center",
+                padding: "80px 24px 24px",
+                overflowY: "auto",
                 animation: "modalIn 0.3s ease",
             }}
         >

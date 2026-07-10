@@ -45,17 +45,6 @@ export default function HeroSection({ onOpenModal }) {
                 {/* Hero content */}
                 <div style={{ position: "relative", zIndex: 2, textAlign: "center", padding: "0 24px", maxWidth: "900px", width: "100%" }}>
 
-                    {/* Live badge */}
-                    <div style={{
-                        display: "inline-flex", alignItems: "center", gap: "8px",
-                        background: "rgba(245,158,11,0.12)", border: "1px solid rgba(245,158,11,0.35)",
-                        borderRadius: "24px", padding: "8px 20px", marginBottom: "32px",
-                        backdropFilter: "blur(8px)",
-                        opacity: loaded ? 1 : 0, transition: "opacity 0.8s ease 0.2s",
-                    }}>
-                        <div style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#F59E0B", boxShadow: "0 0 8px #F59E0B", animation: "livepulse 2s infinite" }} />
-                        <span style={{ fontSize: "0.72rem", color: "#F59E0B", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "'Geist', sans-serif" }}>ML Model · Live</span>
-                    </div>
 
                     {/* GooeyText headline — morphs between key phrases */}
                     <div style={{

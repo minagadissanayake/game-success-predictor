@@ -87,7 +87,7 @@ export function GooeyText({
                 </defs>
             </svg>
 
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", filter: "url(#gooey-threshold)", position: "relative" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", filter: "url(#gooey-threshold)", position: "relative", width: "100%", height: "100%" }}>
                 <span
                     ref={text1Ref}
                     style={{
